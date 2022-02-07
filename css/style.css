@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+:root {
+  --color-orange: #FF7B47;
+  --color-green: #0D5C63;
+  --colro-dark-blue: #252B42;
+  --color-grey: #737373;
+  --h1-text-size: 58px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.container {
+  width: 1046px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 36px 0;
+}
+
+.header-list {
+  list-style-type: none;
+  display: flex;
+  margin-left: 132px;
+}
+
+.header-list-item {
+  margin-right: 20px;
+}
+
+.header-list-link {
+  text-decoration: none;
+  color: var(--color-grey);
+}
+
+.promo {
+  background: url('../img/background.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.promo-wrapper {
+  width: 500px;
+}
+.promo-title {
+  font-size: var(--h1-text-size);
+  color: var(--color-dark-blue);
+  font-weight: 800;
+}
+
+.promo-subtitle {
+  font-weight: 600;
+  margin-top: 20px;
+  color: var(--color-grey);
+}
+
+.promo-buttons-container {
+  margin-top: 30px;
+}
+
+.promo-btn {
+  background: var(--color-orange);
+  color: #FFF;
+  border-radius: 37px;
+  padding: 15px 35px;
+  text-decoration: none;
+  margin-right: 10px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.promo-btn-outline {
+  background: transparent;
+  border: 1px solid var(--color-green);
+  color: var(--color-green);
+}
